@@ -1,0 +1,20 @@
+# Local credentials and personal settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+
+# Private participant data: publish reviewed summaries separately
+数据/private/
+数据/local/
+
+# Temporary files and operating-system metadata
+*.tmp
+*.bak
+~$*
+Thumbs.db
+.DS_Store
+__pycache__/
